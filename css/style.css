@@ -1,0 +1,204 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.homework {
+    margin: 40px 40px;
+}
+.homework h2 {
+    font-size: 20px;
+    margin-bottom: 40px;
+
+}
+.text_1::first-letter {
+    color: red;
+    font-style: italic;
+}
+
+.text_2::first-line {
+    color: red;
+    font-style: italic;
+}
+
+.text_3::selection {
+    background: green;
+}
+
+.text_4 {
+    font-size: 36px;
+    color: #f38181;
+    text-align: center;
+}
+
+.text_4::before {
+    font-family: 'FontAwesome';
+    content: '\f7d9';
+    color: #f38181;
+}
+
+.text_4::after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background-color: #f38181;
+    margin: 20px auto 0;
+}
+
+ul {
+    font-size: 25px;
+}
+
+li:nth-child(1) {
+    color: red;
+}
+
+li:nth-child(9) {
+    color: green;
+}
+
+
+/* footer */
+
+.footer {
+    padding-top: 60px;
+    padding-bottom: 69px;
+    background-color: #f2f2f2;
+
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1080px;
+    display: flex;
+    justify-content: space-between;
+}
+.first_col {
+    display: flex;
+    border-right: 2px solid #e1e1e1;
+    padding-right: 40px;
+}
+
+.footer h2 {
+    margin-bottom: 5px;
+    max-width: 280px;
+    font-size: 20px;
+    color: #06038d;
+    text-shadow: 1px 1px 1px black;
+}
+
+.txt {
+    font-size: 12px;
+    max-width: 320px;
+}
+
+.txt:hover {
+    color: green;
+    transition: .5s;
+}
+.first_col i {
+    font-size: 60px;
+    margin-right: 40px;
+    color: #919191;
+}
+
+.d_flex {
+    display: flex;
+}
+.second_col {
+    border-right: 2px solid #e1e1e1;
+    padding-right: 40px;
+    padding-left: 40px;
+}
+
+.second_col_txt p {
+    font-size: 12px;
+    max-width: 450px;
+    margin-bottom: 15px;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.app-btn:hover {
+    background-color: gold;
+    transition: .5s;
+}
+
+
+.flex a {
+    margin-right: 10px;
+}
+
+.flex p {
+    font-size: 8px;
+}
+
+.big-txt {
+    font-size: 12px;
+}
+.fab {
+    margin-right: 5px;
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.app-btn {
+    background: #000000;
+    border-radius: 4px;
+    padding: 7px 12px;
+    color: #ffffff;
+    text-decoration: none;
+    border: none;
+}
+
+
+
+.third_col {
+    padding-right: 40px;
+    padding-left: 40px;
+}
+.third_col_txt p {
+    font-size: 12px;
+    max-width: 490px;
+    margin-bottom: 15px;
+}
+
+.label1 {
+    background: #c6007e;
+    border-radius: 4px;
+    padding: 10px 12px;
+    color: #ffffff;
+    display: block;
+    max-width: 95px;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    box-shadow: 5px 3px 3px black;
+}
+.label1:before {
+    content: "Подписаться";
+    display: block;
+}
+
+.button1:checked ~ .label1:before{
+    content: "Отписаться";
+}
+.label1:hover {
+    background: black;
+    box-shadow: 5px 3px 3px #c6007e;
+    transition: .3s;
+}
+
+input {
+    outline: none;
+    width: 0;
+    height: 0;
+    owerflow: hidden;
+}
